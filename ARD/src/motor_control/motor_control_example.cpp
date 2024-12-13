@@ -20,8 +20,7 @@ Developed with ROB-9457
 
 // This is the library for the TB6612 that contains the class Motor and all the
 // functions
-// #include <SparkFun_TB6612.h>
-#include "src/SparkFun_TB6612.h"
+#include <SparkFun_TB6612.h>
 
 // Pins for all inputs, keep in mind the PWM defines must be on PWM pins
 // the default pins listed are the ones used on the Redbot (ROB-12097) with
@@ -110,3 +109,4 @@ void loop()
    delay(1000);
    
 }
+
