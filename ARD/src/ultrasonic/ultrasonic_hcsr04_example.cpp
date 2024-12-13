@@ -15,7 +15,7 @@ HCSR04 hc(D11, D10); //initialisation class HCSR04 (trig pin , echo pin)
 
 void setup()
 {
-    Serial.begin(9600);
+    Serial.begin(115200);
 }
 
 void loop()
