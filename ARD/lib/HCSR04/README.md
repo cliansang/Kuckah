@@ -1,8 +1,7 @@
 # = HCSR04 ultrasonic sensor Library for Arduino =
 
-HCSR04 is an [Arduino](http://arduino.cc) library HCSR04 Sensors
+HCSR04 is an [Arduino](http://arduino.cc) library HCSR04 Sensors provided as MIT license by [gamegine on Github](https://github.com/gamegine/HCSR04-ultrasonic-sensor-lib).
 
-![HC-SR04](HC_SR04.jpg)
 
 ## Documentation
 
@@ -11,7 +10,7 @@ Documentation for the library is on the
 
 [basic example](examples/HCSR04/HCSR04.ino)
 
-![schéma HC_SR04_cabling](examples/HCSR04/HC_SR04_cabling.jpg)
+![schéma HC_SR04_cabling](https://github.com/gamegine/HCSR04-ultrasonic-sensor-lib/blob/master/examples/HCSR04/HC_SR04_cabling.jpg)
 
 ```ino
 #include <HCSR04.h>
@@ -29,7 +28,7 @@ void loop()
 ```
 
 > if you want use a multiple sensor  
-> ![schéma HC_SR04_multi_cabling](examples/HCSR04_multi/HC_SR04_cabling.png)
+> ![schéma HC_SR04_multi_cabling](https://github.com/gamegine/HCSR04-ultrasonic-sensor-lib/blob/master/examples/HCSR04_multi/HCSR04_multi.ino)
 
 ```ino
 #include <HCSR04.h>
